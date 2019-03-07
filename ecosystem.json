@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "Ice",
+      "script": "server.js",
+      "env": {
+        "COMMON_VARIABLE": "ture"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy": {
+    "production": {
+      "user": "root",
+      "host": ["154.223.181.115"],
+      "ref": "origin/master",
+      "repo": "https://github.com/Lislie/ice.git",
+      "path": "",
+      "ssh_options": "StrictHostKeyChecking=no",
+      "pre-deploy-local": "echo 'Deploy Done'",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
