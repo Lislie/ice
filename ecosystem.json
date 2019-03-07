@@ -15,7 +15,7 @@
     "production": {
       "user": "root",
       "host": ["154.223.181.115"],
-      "port": "39999",
+      "port": "3006",
       "ref": "origin/master",
       "repo": "https://github.com/Lislie/ice.git",
       "path": "/home/wwwroot/ice",
