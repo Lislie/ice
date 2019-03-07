@@ -18,7 +18,7 @@
       //   "port": "80",
       "ref": "origin/master",
       "repo": "https://github.com/Lislie/ice.git",
-      "path": "/home/wwwroot/",
+      "path": "/home/wwwroot/ice",
       "ssh_options": "StrictHostKeyChecking=no",
       "pre-deploy-local": "echo 'Deploy Done'",
       "env": {
