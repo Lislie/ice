@@ -15,9 +15,10 @@
     "production": {
       "user": "root",
       "host": ["154.223.181.115"],
+      "port": "39999",
       "ref": "origin/master",
       "repo": "https://github.com/Lislie/ice.git",
-      "path": "",
+      "path": "/home/wwwroot/ice",
       "ssh_options": "StrictHostKeyChecking=no",
       "pre-deploy-local": "echo 'Deploy Done'",
       "env": {
