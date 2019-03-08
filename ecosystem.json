@@ -23,6 +23,7 @@
       "pre-deploy-local": "echo 'Deploy Done'",
       "env": {
         "NODE_ENV": "production"
+        // 这是一个测试
       }
     }
   }
