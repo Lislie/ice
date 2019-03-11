@@ -19,7 +19,7 @@
       "repo": "git@github.com:Lislie/ice.git",
       "path": "/home/wwwroot/ice/production",
       "ssh_options": "StrictHostKeyChecking=no",
-      "post-deploy": "npm install && pm2 startOrRestart ecosystem.json --env production",
+      // "post-deploy": "npm install && pm2 startOrRestart ecosystem.json --env production",
       "pre-deploy-local": "echo 'Deploy Done!'",
       "env": {
         "NODE_ENV": "production"
