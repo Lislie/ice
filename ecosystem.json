@@ -15,7 +15,7 @@
     "production": {
       "user": "root",
       "host": ["154.223.181.115"],
-      "ref": "origin/master",
+      "ref": "master",
       "repo": "git@github.com:Lislie/ice.git",
       "path": "/home/wwwroot/ice/production",
       "ssh_options": "StrictHostKeyChecking=no",
