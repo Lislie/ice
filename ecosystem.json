@@ -4,7 +4,7 @@
       "name": "Ice",
       "script": "server.js",
       "env": {
-        "COMMON_VARIABLE": "ture"
+        "COMMON_VARIABLE": "true"
       },
       "env_production": {
         "NODE_ENV": "production"
